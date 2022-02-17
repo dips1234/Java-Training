@@ -4,15 +4,25 @@ method and return the value.
 in draw : syso ("Inside Rectangle draw").....
 in main : I want rect type of object --->print ("Inside Rectangle draw).
 
-2. Print all subsequences of a string
+2.Create a class Vehicle. The class should have two fields-no_of_seats and no_of_wheels. Create two
+objects-Motorcycle and Car for this class. Your output should show the descriptions for Car and Motorcycle.
+
+3. Create a class with a method. The method has to decide whether a given year is a leap year or not.
+Note- A year is a leap year if:
+•	 It has an extra day i.e. 366 instead of 365.
+•	 It occurs in every 4 year e.g. 2008, 2012 are leap years.
+•	 For every 100 years a special rule applies-1900 is not a leap year but 2000 is a leap
+year. In those cases, we need to check whether it is divisible by 400 or not.
+
+4. Print all subsequences of a string
 Input : abc
 Output : a, b, c, ab, bc, ac, abc
 
 Input : aaa
 Output : a, aa, aaa
 
-3. Create a ArrayList which contains strings values. Iterate them in reverse order.
-4. Create a map which contains Employee as Key and String value as value. The Employee has the below attributes :
+5. Create a ArrayList which contains strings values. Iterate them in reverse order.
+6. Create a map which contains Employee as Key and String value as value. The Employee has the below attributes :
     -id
     -name
     -address
@@ -20,6 +30,6 @@ Output : a, aa, aaa
     -dateofbirth
     You need to sort the map based on name, address and dateofbirth.
     
-  5. Write a program to remove duplicates from list of prime number.
-  6.Given a singly linked list, find the middle of the linked list. For example, if the given linked list is 1->2->3->4->5 then the output should be 3. 
+  7. Write a program to remove duplicates from list of prime number.
+  8.Given a singly linked list, find the middle of the linked list. For example, if the given linked list is 1->2->3->4->5 then the output should be 3. 
 If there are even nodes, then there would be two middle nodes, we need to print the second middle element. For example, if given linked list is 1->2->3->4->5->6 then output should be 4. 
